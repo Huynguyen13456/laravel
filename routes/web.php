@@ -18,3 +18,4 @@ Route::get('/d', function () {
     $data=DB::table('laradb')->get();
     print_r($data);
 });
+ắerreswar
