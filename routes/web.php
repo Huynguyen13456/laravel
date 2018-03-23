@@ -12,10 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('wsdfsdelcome');
+    return view('welcome');
 });
-Route::get('/d', function () {
-    $data=DB::table('laradb')->get();
-    print_r($data);
-});
-ádfffasdfsdf
+
